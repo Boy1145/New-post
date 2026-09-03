@@ -1,10 +1,10 @@
-#Punctuation Guide
+# Punctuation Guide
 
 Bold: **Something here**
 
 Italic: *being italicized* 
 
-Strikethrough: ~Opps, this is wrong~
+Strikethrough: ~~Opps, this is wrong~~
 
 Underline: Here is the <ins>important</ins> thing
 
