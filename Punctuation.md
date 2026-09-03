@@ -13,6 +13,7 @@ Quoting text: This text is not a quote
 
 |Punctuation   |Syntax   | Example  |
 |---|---|---|
-|Bold|** ** |**Something here**   |
-|   |   |   | 
-|   |   |   | 
+|Bold          |`**Something here**`  |**Something here**   |
+|Italic        | * *     | *being italicized*   | 
+|Strikethrough |~~ ~~    |~~Opps, this is wrong~~| 
+||||
