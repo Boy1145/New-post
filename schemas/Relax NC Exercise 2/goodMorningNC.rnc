@@ -1,0 +1,20 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+start = xml
+xml = element xml {source?,poem}
+
+source = element source {element title {level?, text}, author, date}
+level = attribute level {text}
+author = element author {text}
+date = element date {when, empty}
+when = attribute when {xsd:date | xsd:gYearMonth | xsd:gYear}
+
+poem = element poem {element title {level?, text}, lg+}
+lg = element lg {ln+}
+ln = element ln {n, mixed {( placeName| place | motif )*}}
+n = attribute n {xsd:integer}
+placeName = element placeName {attribute ref {text}, text}
+place = element place {attribute ref {text}, text}
+motif = element motif {text}
+
+
+
