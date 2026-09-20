@@ -1,0 +1,15 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+start = poem
+poem = element poem {title?, author?, mixed{(stanzas | break)+}}
+
+title = element title {text}
+author = element author {name*, text}
+stanzas = element stanzas {attribute num {xsd:int}, line+}
+break = element break {empty}
+
+name = attribute name {text}
+line = element line {attribute num {xsd:int}, mixed {(location | time | object)*}}
+
+location = element location {attribute type {text}?, text}
+time = element time {attribute when {"morning" | "afternoon" | "evening" | "night"}, text}
+object = element object {attribute type {"natural" | "manmade"},text}

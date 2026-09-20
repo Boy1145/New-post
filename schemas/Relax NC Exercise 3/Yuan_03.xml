@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Yuan_03_NC.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+    <title>The Road Not Taken</title>
+
+    <author name="Robert Frost">By Robert Frost</author>
+    <!-- Robert Frost, an American poet and writer, is considered a "transitional poet" bridging traditional English poetry and modernism. -->
+    
+    <!-- The poem contains four stanzas -->
+    <stanzas num="1">
+    <line num="1">Two <location type="road">roads</location> diverged in a yellow <location type="natural">wood</location>,</line>
+    <line num="2">And sorry I could not travel both</line>
+    <line num="3">And be one traveler, long I stood</line>
+    <line num="4">And looked down one as far as I could</line>
+    <line num="5">To where it bent in the <object type="natural">undergrowth</object>;</line>
+    </stanzas>
+    
+    <break/>
+
+    <stanzas num="2">
+    <line num="6">Then took the other, as just as fair,</line>
+    <line num="7">And having perhaps the better claim,</line>
+    <line num="8">Because it was grassy and wanted wear;  </line>  
+    <line num="9">Though as for that the passing there</line>
+    <line num="10">Had worn them really about the same,</line>
+    </stanzas>
+    
+    <break/>
+
+    <stanzas num="3">
+    <line num="11">And both that <time when="morning">morning</time> equally lay</line>
+    <line num="12">In <object type="natural">leaves</object> no step had trodden black.</line>
+    <line num="13">Oh, I kept the first for another day!</line>
+    <line num="14">Yet knowing how way leads on to way,</line>
+    <line num="15">I doubted if I should ever come back.</line>
+    </stanzas>
+    
+    <break/>
+
+    <stanzas num="4">
+    <line num="16">I shall be telling this with a sigh</line>
+    <line num="17">Somewhere ages and ages hence:</line>
+    <line num="18">Two <location type="road">roads</location> diverged in a <location type="natural">wood</location>, and I—</line>
+    <line num="19">I took the one less traveled by,</line>
+    <line num="20">And that has made all the difference.</line>
+    </stanzas>
+</poem>
