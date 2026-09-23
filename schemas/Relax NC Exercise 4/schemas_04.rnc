@@ -1,0 +1,17 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = diary
+diary = element diary {author*, day+}
+author = element author {attribute name {text}?, text}
+day = element day {date, dayOfweek?, weather?, content}
+
+date = element date {attribute when {xsd:date}, text}
+dayOfweek = element dayOfweek {"Monday" | "Tuesday" | "Wednesday" | "Thursday" |"Friday" | "Saturday" | "Sunday" }
+weather = element weather {text}
+content = element content { mixed {(object | time | location | emotion)*}}
+
+object = element object {attribute type {"natural" | "manmade"}, attribute objectName {text}?, text}
+time = element time {attribute timeOfday {"morning" | "afternoon" | "evening" | "night"}?, attribute specificTime {text}?, text}
+location = element location {attribute type {"place" | "county" | "city" | "state" | "country"}, attribute name {text}?, text}
+emotion = element emotion {attribute status {"happy" | "sad" | "angry" | "doubt"}, text}
+

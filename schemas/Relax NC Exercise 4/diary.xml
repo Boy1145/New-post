@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="schemas_04.rnc" type="application/relax-ng-compact-syntax"?>
+<diary>
+    <!--These are the diaries my grandfather kept when he was a young teacher. I helped him digitize them. You will notice a mix of English and Chinese(though predominantly Chinese), which I felt made them well-suited for XML markup. Naturally, I obtained my grandfather's permission to do this.  -->
+<day>
+    <date when="1964-12-26">December26·1964</date> <dayOfweek>Saturday</dayOfweek>
+    <content>回乡<time specificTime="two year">两年</time>还没安心，不能断定是思想正确与否。这又像是为自己的不正确思想辩护。事物是发展着，应用发展的眼光看问题。</content>
+</day>
+    
+<day>
+    <date when="1964-12-28">December28·1964</date> <dayOfweek>Monday</dayOfweek>
+    <content>今日，班上纪律好得很。</content>
+</day>
+    
+<day>
+    <date when="1965-01-03">January3·1965</date> <dayOfweek>Sunday</dayOfweek>
+    <content><time specificTime="the sencond day of New Year">新年的第二天</time>，英雄的解放军就又击落了一架胆敢来犯的无人驾驶侦察纪，实在令人鼓舞、振奋。</content>
+</day>
+
+<day>
+    <date when="1965-01-08">January8·1965</date> <dayOfweek>Friday</dayOfweek> <weather>Fine</weather>
+    <content>他爹讲：咱这种人家早先哪敢想供给得起个大学生。是呵，连高中初中生也是问题。其母流过泪。爹睡不好觉了，又借了十元钱汇给了他。……我复信中，一本正经地板着面孔夸夸其谈。实际上自己遇到了，或许会<emotion status="sad">悲观至极</emotion>；还没经过那样的事，有时就<emotion status="sad">心灰意冷</emotion>。</content>
+</day>
+
+<day>
+    <date when="1965-01-11">January11·1965</date> <dayOfweek>Monday</dayOfweek> <weather>Wind  Cold  Fine</weather>
+    <content>好啊！——又击落一架U-2飞机。</content>
+</day>
+    
+<day>
+    <date when="1965-01-12">January12·1965</date> <dayOfweek>Tuesday</dayOfweek> <weather>Fine</weather>
+    <content>找六个三类学生漫谈怎样学习变得好起来。他们畅所欲言，我很<emotion status = "happy">高兴</emotion>。他们自觉自愿地按我的话做去了。应当善于让学生无拘无束的谈出他们各自的意见、看法等心理话。这就要坚决地改正大声训斥的恶习，态度一定要和蔼。
+向一个女学生承认了自己的错误：和她嘔气，不给她批作业——这简直不配做教师嘛。</content>
+</day>
+    
+<day>
+    <date when="1965-01-18">January18·1965</date> <dayOfweek>Monday</dayOfweek> <weather>Fine</weather>
+    <content>下午课后，<location type="place" name="school">学校</location>几个班的学生将村南的<location type="place" name="temple">土地庙</location>拉倒了。其先以为很简单，将拔河绳套上它就可以。不料，喊口号，齐使劲，竟至于拉断了拔河绳，<location type="place" name="temple">土地庙</location>体却没有动。之后，将绳子贴在庙体的底部，方才齐用力拉翻了它。原来它是由一整块石头凿刻而成。现场看的人不少。母亲知道了，说：拉倒了它，还会有“送盘缠”的。我以为：此一举，总有点意义吧。</content>
+</day>
+    
+<day>
+    <date when="1965-02-02">Februery2·1965</date> <dayOfweek>Tuesday</dayOfweek> <weather>Fine  Wind</weather>
+    <content>听君一席话，胜读十年书。在牛家，同家昌、瑞久、系招同学，自<time specificTime="7:45pm">7点45</time>一直扯到<time specificTime="10pm">十时</time>，收获大大的。他们谈了对我的看法。有说同我谈话不容易。或者说我话多钱少。或者说我对人严，而对己松得很，等。共同认为：年轻人思想易于片面，往往摇摆不定。</content> 
+</day>     
+<day>
+    <date when="1965-03-12">March12·1965</date> <dayOfweek>Saturday</dayOfweek> <weather>Fine</weather>
+    <content>学校里的同事们评我为优秀教师。这是不实际的。我至今事业心才算安定了，可工作不出色，且相当糟，虽非一无是处，而是工作中问题相当多，甚至相当严重。同事们大多还不能很好的展开批评和自我批评，这与工作等很不利。本来，可以不赞成我的。</content>
+</day>   
+    
+<day>
+    <date when="1965-03-28">March28·1965</date> <dayOfweek>Sunday</dayOfweek> <weather>Fine</weather>
+    <content><time timeOfday="morning">上午</time>，跑了一趟沧口。途中，买了地豆、菠菜、葱。本来，娘还要我卖白菜，可给木匠下酒。我可连集也不会赶。还好，在合作社里，不用讲价便成交了。</content>
+</day>
+    
+<day>
+    <date when="1965-05-20">May20·1965</date> <dayOfweek>Thursday</dayOfweek> <weather>Fine</weather>
+    <content>一学生由我请求学校勒令退学了，其家长有意见。尽管事已如此，但一想起来就<emotion status="sad">深感内疚和失职……</emotion></content>
+</day>
+    
+<day>
+    <date when="1965-05-28">May28·1965</date> <dayOfweek>Friday</dayOfweek>  <weather>Fine</weather>
+    <content><time timeOfday="afternoon">下午</time>，<location type = "county">崂山县</location>文化馆下乡到公社内，并要在<location type = "city">城阳</location>大队设一个图书站，以便出借图书给社员看。大队团组织要我负责。我前去借到45本书，十本连环画，跟一个图书箱</content>
+</day>
+    
+<day>
+    <date when="1965-06-02">June2·1965</date> <dayOfweek>Wednesday</dayOfweek> <weather>Cloud</weather>
+    <content>比较起来，教学工作应该有规律一些：每天上几节课，空几堂课都是规定好了的，就可以预先计划好干什么干什么。</content>
+</day>
+    
+<day>
+    <date when="1965-06-04">June4·1965</date> <dayOfweek>Friday</dayOfweek> <weather>Fine</weather>
+    <content>花0.28元买了<object type="manmade" objectName="book">《汉语浅说》</object>同<object type="manmade" objectName="book">《郭兴福教学方法》</object>两书（0.15加0.13元）。<time specificTime="before dinner">晚饭前</time>去自留地补地瓜苗。一出村，看见满地的麦子快转黄了，直觉一阵阵清郁的香气扑鼻，沁人肺腹似的。还得闻生产队里安装好了电动石碾搞副业。是新事儿，一记之。</content>
+</day>
+
+<day>
+    <date when="1965-06-15">June15·1965</date>  <weather>Cloud  Rain</weather>
+    <content>想不到写的标语竟大有问题，公社冷社长、杜书记<time specificTime="11pm">夜间十一点左右</time>特地找到大队指出改过。但是，我始终认为几乎是每一条都站得住脚，最起码也没有那么严重。我首先接受的是其中有几个有教训的口味，可很难分析出什么“对现实不满”“对人家冷嘲热讽”之类的意思，也未免有点牵强了吧。
+我的自我批评是，不由自主地表现了小资产阶级好为人师的恶习，很不老实，俨然像一位上级给下级上政治课，还自以为在代表贫下中农和大学生说话呢。末了一句话是：整个看来应肯定；教训的口吻与故意散发的文学气味应坚决收起。
+列宁的伟大遗训：“你总认识年轻的XYZ吧。一个极好的，很有才干的青年人！虽说这样，我可怕他不会有什么出息。他忙着接二连三地制造风流韵事。这对于政治斗争、对于革命都是不适合的……”</content>
+</day>
+
+<day>
+    <date when="1965-06-29">June29·1965</date>  <weather>Cloud</weather>
+    <content>和以前一样，仍然希望你能大胆地毫无顾忌地对我的缺点或错误谈出自己的看法。我特别希望听到批评。自己的事应自己拿主见善处之，就不要别人插手，就不要向别人提出这种要求。学着自己独立地解决问题吧。</content>
+</day>
+
+<day>
+    <date when="1965-09-07">September7 1965</date>  <dayOfweek>Tuesday</dayOfweek> <weather>Fine</weather>
+    <content>访学生家，思想豁然开朗：原来很犯难——那学生很不听话。听了家长一席话，知其好学的精神，以及要孩子好好学习的心情等实况，一时间不发愁了。</content>
+</day>
+
+<day>
+    <date when="1965-09-23">September23 1965</date> <dayOfweek>Thursday</dayOfweek> <weather>Fine</weather>
+    <content>一个女生和三个女生不说话，今天我才知道。都<time specificTime="alomst a year">快一年</time>了。原因是她比较负责，而与她们闹了意见。今日，其中一个传“淡话“的哭得很伤心，似乎深刻的认识了自己的错误。这就要求今后，得注意调查研究班里的情况。看看她们明天能和好吗？——今日相互握了手</content>
+</day>
+
+<day>
+    <date when="1965-10-15">October15·1965</date> <dayOfweek>Friday</dayOfweek> <weather>Fine</weather>
+    <content>四清工作队干部调查三队的青年情况，说那里就是阶级斗争的反应。这，可以同意。但是，说其有后台的话，<emotion status="doubt">值得怀疑</emotion>。我要看：运动之后，会弄一个什么结果。</content></day>
+
+<day>
+    <date when="1965-11-07">November7 1965</date> <dayOfweek>Sunday</dayOfweek> <weather>Cloud</weather>
+    <content>河道攒了0·28元钱，买了本<object type = "manmade" objectName="book">《革命歌曲集（2）》</object>，可见其爱唱歌。可以通过这方面的诱导，克服其怪声怪调的毛病。
+怀良的日记记得好，应作为活样板推荐给全班学生。</content>
+</day>
+
+<day>
+    <date when="1965-12-18">December18 1965</date> <dayOfweek>Thursday</dayOfweek> <weather>Cloud  Rain</weather>
+    <content>班上纪律情况有所好转，也并不明显。大概想很明显的变化是不实际的。以后，继续不断地因势利导，一定会巩固住的。</content></day>
+
+</diary>
