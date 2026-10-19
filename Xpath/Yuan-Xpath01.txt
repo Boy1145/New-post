@@ -1,0 +1,21 @@
+#Q1:
+//div[@type="panelGrp"] #24 results 
+
+#Q2:
+//div[@type="panelGrp"]/cbml:panel #58 results 
+
+#Q3:
+//div[@type="panelGrp"][2] #1 results
+//div[@type="panelGrp"][2]/cbml:panel #2 results
+
+#Q4
+//@characters #53 results
+
+#Q5:
+//cbml:panel[@characters="#narrator"] #52 results
+
+#Q6:
+//floatingText #41 elements
+# I think it is for explain what is shown texts on the item
+//cbml:panel[floatingText] # 26 elements
+count(//cbml:panel[floatingText]) # return 26
