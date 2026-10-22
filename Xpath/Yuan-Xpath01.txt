@@ -2,7 +2,7 @@
 //div[@type="panelGrp"] #24 results 
 
 #Q2:
-//div[@type="panelGrp"]/cbml:panel #58 results 
+//div[@type="panelGrp"]//cbml:panel #58 results 
 
 #Q3:
 //div[@type="panelGrp"][2] #1 results
