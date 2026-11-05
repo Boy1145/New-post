@@ -1,0 +1,30 @@
+# Q1:
+//div[@type='historical_people']
+
+#Q2a:
+//div[@type='historical_people']/*
+#Q2b:
+//div[@type='Past_Editors']/*
+#2C:
+//div/* => count() # result is 20
+
+#3a: 
+//list[@sortKey='animals']/* => count() #result is 69
+#3b:
+//list[@sortKey='animals']/*[last()] # It reture the last item element
+#3c:
+//list[@sortKey='plants']/*[5]
+#3d:
+//list[@sortKey='plants']/*[position() le 6]
+
+#4: For the first one, "//person/occupation[1]" return the first occupation element in each person elements.
+For the sencond one, "(//person/occupation)[1]" return the first occupation in the person elements
+
+#5a:
+count(//person) # results is 1552
+#5b:
+//person[@sex] # 1393 results
+#5c:
+count(//person[@sex]) div count(//person) * 100 # Answer approximately equal to 89.76
+#5d: 
+count(//person[@sex='f']) div count(//person[@sex]) * 100 # Answer approximately equal to 29.72

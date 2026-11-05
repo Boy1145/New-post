@@ -1,0 +1,17 @@
+#1:
+//cbml:panel[@characters] => distinct-values() #not really, it still remain 56 items whether you have istinct-values() or not
+#2:
+//cbml:panel[@characters] ! tokenize(.) => distinct-values()
+#3a:
+//cbml:panel[contains(@characters, 'drkelly')]
+#3b:
+//cbml:balloon[ends-with(@who, 'solin')] # 17 results
+#4a:
+//cbml:balloon ! string-length(.) => max()
+#4b:
+//cbml:balloon[string-length(.) eq max(//cbml:balloon ! string-length(.) => max()) ]/@who
+#4c:
+//cbml:balloon[string-length(.) eq max(//cbml:balloon ! string-length(.) => min()) ]/@who
+#5a:
+//cbml:panel/note[contains(., 'skull')]
+#5b: With the dot, you are returning each div that have 'NO' in it.
