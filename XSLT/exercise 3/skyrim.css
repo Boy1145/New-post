@@ -1,0 +1,30 @@
+.body{
+  background-color: #FFEBCD;
+  width: 400px;
+  border: 10px solid grey;
+  padding: 80px;
+  margin: 80px;
+}
+.questEvent{
+    color:#A52A2A;
+}
+.QuestItem{
+    color:#0000FF;
+    text-decoration:underline;
+}
+.character{
+    color:#8A2BE2;
+    font-style:italic;
+}
+.epithet{
+    color:#00008B;
+    font-weight:bold;
+}
+.faction{
+    color:#006400;
+    text-decoration:overline;
+}
+.location{
+    font-weight: bold;
+    background-color:#A9A9A9;
+}
