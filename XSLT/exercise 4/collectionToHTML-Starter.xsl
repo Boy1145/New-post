@@ -16,7 +16,7 @@
     process the Relax NG schema), so the ?select="*.xml" selects only the XML files in the collection. -->
 
     <xsl:variable name="travelColl" as="document-node()+"
-        select="collection('letters-xml/?select=*.xml')"/>
+        select="collection('behrendTravel2024/letters-xml/?select=*.xml')"/>
 
     <xsl:template match="/"><!-- ebb: Set up the XSLT to run against any single XML file, so this 
     tmemplate has a document node to match on-->
@@ -42,7 +42,8 @@
                         
                         <!--ebb: Here we use our $travelColl variable pointing into the collection. -->
                         <xsl:apply-templates select="$travelColl//letter" mode="toc">
-                            <xsl:sort select="(descendant::date/@when)[1] ! xs:date(.)"/>
+                            <xsl:sort select="(page/headLine/date/@when)[1]"
+                                order="ascending"/>
                         </xsl:apply-templates>
                         <!-- ebb: Notice how we open up xsl:apply-templates to apply xsl:sort. 
                             This sorts the files in the collection based on the
@@ -68,7 +69,7 @@
    
    <xsl:template match="letter" mode="toc">
        <tr>
-           <td><xsl:apply-templates select="descendant::headLine"/></td><!--first column data cell: to hold the date of the letter-->
+           <td><a href="#letter-{position()}"><xsl:apply-templates select="descendant::headLine"/></a></td><!--first column data cell: to hold the date of the letter-->
            <td> <xsl:value-of select="
                    (descendant::person ! normalize-space(.))
                    => distinct-values()
@@ -92,11 +93,13 @@
     <!-- ************************************************* -->
     
     <xsl:template match="letter">
-        <div class="letter">
+        <div class="letter" id="letter-{position()}">
             <xsl:apply-templates/>
         </div>
         
     </xsl:template>
+    
+        
     <xsl:template match="p">
         <p>
             <xsl:apply-templates/>
