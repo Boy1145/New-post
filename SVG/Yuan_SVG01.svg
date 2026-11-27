@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <desc></desc>
+    <g alignment-baseline="baseline">
+        <svg height="1000" width="900" xmlns="http://www.w3.org/2000/svg">
+            <text x="50" y="30" fill="black" stroke="blue" textLength="800" font-size="35">the relative size in square miles of three Pacific islands</text>
+            
+            <line x1="0" y1="40" x2="0" y2="540" style="stroke:black;stroke-width:5" />
+            <line x1="0" y1="40" x2="900" y2="40" style="stroke:black;stroke-width:5" />
+            <line x1="900" y1="540" x2="900" y2="40" style="stroke:black;stroke-width:5" />
+            <line x1="900" y1="540" x2="0" y2="540" style="stroke:black;stroke-width:5" />
+            
+            <rect width="100" height="404" x="100" y="136" style="fill:rgb(0,0,255);stroke-width:1;stroke:rgb(0,0,255)" />
+            <rect width="100" height="65" x="400" y="475" style="fill:green;stroke-width:1;stroke:green" />
+            <rect width="100" height="100" x="700" y="440" style="fill:red;stroke-width:1;stroke:red" />
+            
+            <text x="115" y="570" fill="black" stroke="black" textLength="70" font-size="30">Tahiti</text>
+            <text x="405" y="570" fill="black" stroke="black" textLength="90" font-size="30">Raiatea</text>
+            <text x="690" y="570" fill="black" stroke="black" textLength="120" font-size="30">Tongatapu</text>
+            
+            <text x="135" y="131" fill="black" stroke="black" textLength="30" font-size="20">404</text>
+            <text x="440" y="470" fill="black" stroke="black" textLength="20" font-size="20">65</text>
+            <text x="735" y="435" fill="black" stroke="black" textLength="30" font-size="20">100</text>
+        </svg>
+    </g>
+</svg>
